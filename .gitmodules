@@ -1,0 +1,3 @@
+[submodule "STIR"]
+	path = STIR
+	url = https://github.com/UCL/STIR.git

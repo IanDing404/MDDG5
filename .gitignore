@@ -1,0 +1,29 @@
+# macOS and Jupyter
+.DS_Store
+__MACOSX/
+.ipynb_checkpoints/
+
+# Large duplicate archives
+*.zip
+!results/final-outputs-scatter-parameter-3.zip
+
+# SimSET build and generated data
+2.9.2/.git/
+2.9.2/bin/
+2.9.2/obj/
+2.9.2/samples/fastTest/
+2.9.2/sim_bla/
+*.ttest.results
+rec.count
+rec.weight
+rec.weight2
+*.log
+
+# Generated STIR/SimSET simulations
+STIR/src/SimSET/examples/sim3/
+STIR/src/SimSET/examples/sim_5e6/
+STIR/src/SimSET/examples/sim_bla/
+
+# Third-party reference PDFs
+Efthimiou's Data Driven Energy Based Scatter Estimation.pdf
+Hamill's Energy-based scatter estimation in clinical PET.pdf
